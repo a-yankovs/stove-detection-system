@@ -1,0 +1,41 @@
+# ESP-IDF build artifacts
+/build/
+/*.elf
+/*.bin
+/*.map
+/*.lst
+/*.bin
+/*.d
+/*.o
+
+# CMake build cache
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Auto-generated project description
+project_description.json
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# ESP-IDF tools and Python env (optional, if virtualenv is used)
+.env/
+.venv/
+
+# IDF Python dependencies (optional)
+.python_packages/
+
+# Logs or dumps
+*.log
+*.dump
+
+# vscode and CLion IDE settings
+.vscode/
+.idea/
+
+# sdkconfig (only if generated locally — keep sdkconfig.defaults)
+sdkconfig
+sdkconfig.old
